@@ -15,7 +15,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone your source code repository
-                git url: 'https://your-repo-url.git', branch: 'main'
+                git url: 'https://github.com/Abir-Ayed/vehicules.git', branch: 'master'
             }
         }
 
